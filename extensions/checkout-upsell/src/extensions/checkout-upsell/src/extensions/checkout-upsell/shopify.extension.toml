@@ -1,0 +1,6 @@
+name = "checkout-upsell"
+type = "checkout_ui_extension"
+
+[[extensions.targeting]]
+target = "purchase.checkout.block.render"
+module = "./src/index.tsx"
